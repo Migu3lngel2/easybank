@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width: 80%;
+    background-color: aqua;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 30px 0;
+}
+header #logo{
+    width: 50%;
+
+}
+header #logo h1{
+    color: aqua;
+    width: 30% ;
+}
+header #menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    width: 45%;
+    list-style: none;
+
+}
+#menu li a{
+    text-decoration: none;
+    color: #232327;
+}
+#menu li a:hover{
+    color:#eaae54
+}
+#arriba{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(209, 120, 11);
+}
+#arriba section{
+    width: 50%;
+    background-color: blue;
+}
+#arriba aside{
+    width: 45%;
+    background-color: brown;
+    padding: 20%;
+}
+#textos{
+    display: flex;
+}
+#textos section .titulo{
+    font-size: 80px;
+}
+#textos section p{
+    font-size: 40px;
+}
+#descripcion button{
+   background-color: aquamarine;
+   color: white;
+
+}
+#descripcion button:hover{
+    background-image: linear-gradient(to right top, #09e97d, #00ea8f, #00eb9f, #00ebae, #12ebbb);
+}
+#banner svg{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-image: url('http://www.w3.org/2000/svg');
+    background-size: cover;
+} 
+#banner img{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 50px;
+    left: 50px;
+    background-image: url('imagen-superior.jpg');
+    background-size: cover;
+    z-index: 1;
+}
+#centro{
+    display: flex;
+}
+#centro aside h1{
+    font-size: medium;
+    color: grey;
+}
+h1 p{
+    font-size: small;
+    color: rgb(185, 180, 180);
+}
+#inferior{
+    background-color: #232327;
+    width: 100%;
+}
+
